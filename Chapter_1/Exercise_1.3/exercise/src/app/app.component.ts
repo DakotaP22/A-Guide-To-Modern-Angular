@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HelloWorldComponent } from './hello-world/hello-world.component';
+import { HelloWorldComponent } from './components/hello-world/hello-world.component';
 
 @Component({
   selector: 'app-root',
