@@ -2,12 +2,10 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-simple-message',
+  selector: 'simple-message',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './simple-message.component.html',
-  styleUrls: ['./simple-message.component.css']
+  styleUrls: ['./simple-message.component.css'],
 })
-export class SimpleMessageComponent {
-
-}
+export class SimpleMessageComponent {}
