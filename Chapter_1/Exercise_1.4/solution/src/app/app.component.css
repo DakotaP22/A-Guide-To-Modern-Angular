@@ -1,5 +1,5 @@
-/* removed .text class styles (migrated to component) */
-.background {
+/* Replaces background class seletor with host selector */
+:host {
   background-color: #2e3138;
   display: block;
   width: 100%;

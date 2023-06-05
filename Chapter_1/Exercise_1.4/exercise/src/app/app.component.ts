@@ -1,14 +1,15 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { HelloWorldComponent } from './components/hello-world/hello-world.component';
+import { Component } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { HelloWorldComponent } from "./components/hello-world/hello-world.component";
+import { SimpleMessageComponent } from "./components/simple-message/simple-message.component";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   standalone: true,
-  imports: [CommonModule, HelloWorldComponent],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  imports: [CommonModule, HelloWorldComponent, SimpleMessageComponent],
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-  title = 'example';
+  title = "example";
 }
